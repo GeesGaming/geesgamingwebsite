@@ -57,12 +57,12 @@
   padding: 0% 0%;
 }
 .main-jumbotron-image {
-  width: 20%;
+  width: 30%;
   margin: 10%;
   float: right;
 }
 .main-jumbotron-text-container {
-    margin: 40vh 5vh;
+    margin: 35vh 15vh;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -144,8 +144,7 @@
 --------------------------------------------------------------*/
 .sh-button {
     text-align: center !important;
-    background-color: #ff9089;
-    background-color: #e04861;
+    background-color: #000;
     border: 0;
     border-radius: 3px;
     font-size: 19px;
@@ -159,8 +158,8 @@
   }
   
 .sh-button:hover {
-  background-color: #ff9089;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   text-decoration: none;
   /* width: 300px;*/
 }
@@ -203,7 +202,7 @@ a.sh-button:link {
   display: block;
   width: 120px;
   height: 3px;
-  background: #e04861;
+  background: #ff4900;
   bottom: 0;
   left: calc(50% - 60px);
 }
@@ -351,6 +350,7 @@ a.sh-button:link {
   padding: 4%;
   background-color: rgba(52,58,64,1);
   color: white;
+  text-align: center;
 }
 
 .social a i {
