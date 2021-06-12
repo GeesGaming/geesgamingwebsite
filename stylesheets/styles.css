@@ -9,23 +9,6 @@
     margin-right: 10%;
 }
 
-#mlh-trust-badge {
-    display: block;
-    position: fixed;
-    right: 110px;
-    top: 0;
-    z-index: 10000;/*why??*/
-    /*width:80%; */
-    margin-left: 50%;
-    width: 100px;
-}
-
-@media (max-width: 575px){
-  #mlh-trust-badge {
-    width: 65px;
-  }
-}
-
 /*--------------------------------------------------------------
     Jumbotron
 --------------------------------------------------------------*/
@@ -47,9 +30,11 @@
 
 .main-jumbotron {
   /*background-image: url(../images/20160124-IMG_7913.jpg);*/
+  
   margin-top: 3%;
-  background: linear-gradient( rgba(0,39,200,0.3), rgba(255,19,37,0.3) ), url(../images/valorantWallpaper0.png);
+  background: linear-gradient( rgba(0,0,0,0), rgba(200,0,0,0.4), rgba(0,0,0,0.8), #000 ), url(../images/valorantWallpaper0.png);
   background-size: cover;
+  background-position-x: center;
   height: 100vh;
   min-height: 700px;
 }
@@ -58,6 +43,7 @@
 }
 .main-jumbotron-image {
   width: 30%;
+  max-width: 50%;
   margin: 10%;
   float: right;
 }
@@ -228,9 +214,9 @@ a.sh-button:link {
 /*--------------------------------------------------------------
     About
 --------------------------------------------------------------*/
-#about{
+#rules{
   padding: 7%;
-  background-color: rgb(27, 33, 36);
+  background-color: #000;
   color: white;
   text-align: center;
 }
@@ -348,13 +334,13 @@ a.sh-button:link {
 --------------------------------------------------------------*/
 .foot{
   padding: 4%;
-  background-color: rgba(52,58,64,1);
+  background-color: #000;
   color: white;
   text-align: center;
 }
 
 .social a i {
-  color: #000;
-  font-size: 30px;
+  color: #fff;
+  font-size: 200%;
   margin: 3%
 }

@@ -22,7 +22,7 @@
 </head>
 <body>
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" role="navigation">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #000" role="navigation">
         
         <a class="navbar-brand page-scroll" href="#page-top">
             <img src="images/g.png" width="30" height="30" class="d-inline-block align-top" alt="">Gee's Gaming
@@ -36,7 +36,7 @@
                     <a class="nav-link page-scroll" href="#page-top">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#about">About</a>
+                    <a class="nav-link page-scroll" href="#rules">Rules</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#faq">FAQ</a>
@@ -58,22 +58,27 @@
         <div class="main-jumbotron-container">
             <div id="intro" class="main-jumbotron-text-container">
                 <h1>Gee's Gaming</h1>
-                <p>June something-something, 2021</p>
+                <p>B1-G2 Valorant Tournament July 16-18, 2021</p>
+                <p>Registration June 12-19, 2021</p>
                 <div class="row mar-main-center">
                     <div class="col-sm-5 mb-2 mar-center">
-                        <button class="sh-button" id="hackButton" onclick="location.href=''" >Register Now</button>
+                        <button class="sh-button" id="hackButton" onclick="window.open('https://forms.gle/KY1ioa6r5rw4k3LD9','_blank'); return false;">Register Team</button>
+                    </div>
+                    <div class="col-sm-5 mb-2 mar-center">
+                        <button class="sh-button" id="hackButton" onclick="window.open('https://forms.gle/WiZ6MZYBmDN92kky6','_blank'); return false;">Register Solo</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- About -->
-    <section id="about" class="site-section">
+    
+    <!-- Rules -->
+    <section id="rules" class="site-section">
         <div class="container">
         <header class="section-header">
-            <h2>Designing a Gamer's World</h2>
-            <p>Creating quality games, by gamers, for gamers!</p>
+            <h2>Rules</h2>
+            <p><a href="GeesGaming_Valorant_Rule_book.pdf" target="_blank">Rulebook</a></p>
         </header>  
         </div>
     </section>
@@ -87,18 +92,19 @@
             <div class="row">
                 <div class="faq-col">
                     <div>
-                        <h3>Your?</h3>
-                        <p class="answer">Mom.</p>
-                    </div>
-                    <div>
                         <h3>How many teams will be made up of solo players?</h3>
                         <p class="answer">We will be creating six randomized teams of solo players.</p>
+                    </div>
+                    <div>
+                        <h3>Can you sign up as a team?</h3>
+                        <p class="answer">Yes, you can sign up as a team with as many members as you can get (Max 7).
+                            If you need subs or more team members, place N/A within the reamining slots on the registration form.</p>
                     </div>
                 </div>
                 <div class="faq-col">
                     <div>
-                        <h3>No?</h3>
-                        <p class = "answer">u.</p>
+                        <h3>How are servers chosen?</h3>
+                        <p class = "answer">Teams may discuss what server the match will be hosted on. If no server is agreed upon, it wil be decided by the tournament admins.</p>
                     </div>
                 </div>
             </div>
@@ -109,6 +115,7 @@
 
 
     <!-- footer -->
+    <!--
     <footer class="foot">
         <div class="container justify-content-center">
             <div class="row">
@@ -123,11 +130,34 @@
                         <a href = "https://www.instagram.com/geesgamingtv" class="pl-2 pr-2"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
-                
             </div>
         </div>
     </footer>
-
+    -->
+    
+    <footer class="foot">
+        <div class="container justify-content-center">
+            <div class="col">
+                <h3 class="footer-heading mb-1"> Follow Us</h3>
+            </div>
+            <div class="col">
+                <div class="social justify-content-center">
+                    &nbsp;&nbsp;
+                    <a href = "https://twitch.tv/geesgamingtv" target="_blank" class="pl-2pr-2"><i class="fab fa-twitch"></i></a>
+                    <a href = "https://discord.gg/aK8Uxw2frC" target="_blank" class="pl-2 pr-2"><i class="fab fa-discord"></i></a>
+                    <a href = "mailto:admin@geesgaming.com" target="_blank" class="pl-2 pr-2"><i class="far fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="social justify-content-center">
+                    <a href = "https://fb.me/GeesGamingTV" target="_blank" class="pl-2 pr-2"><i class="fab fa-facebook"></i></a>
+                    <a href = "https://twitter.com/GeesGamingTV" target="_blank" class="pl-2 pr-2"><i class="fab fa-twitter"></i></a>
+                    <a href = "https://www.instagram.com/geesgamingtv" target="_blank" class="pl-2 pr-2"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
     <!-- Our JavaScript -->
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="./js/neoNavBar.js"></script>
 
