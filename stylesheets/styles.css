@@ -220,6 +220,12 @@ a.sh-button:link {
   color: white;
   text-align: center;
 }
+#bracket{
+    padding: 7%;
+    background-color: #062015;
+    color: white;
+    text-align: center;
+  }
 /*--------------------------------------------------------------
     FAQ - imported
 --------------------------------------------------------------*/
